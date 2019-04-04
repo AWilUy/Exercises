@@ -1,5 +1,5 @@
 <?php
-$file=fopen("lol.txt","r");
+$file=fopen("PalindromeCases.txt","r");
 while(!feof($file)){
     $line=fgets($file);
     $line = trim($line);
